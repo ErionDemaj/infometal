@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Projektet e punuara nga infometal">
+    <title>Info Metal Projektet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/projection.css" ></link>
+    <link rel="stylesheet" href="./styles/header.css" ></link>
+    <link rel="stylesheet" href="./styles/catalog.css" ></link>
+</head>
+<body>
+    <header>
+        <div class="border-2 border-[#ff0000] w-full"></div>
+        <div class="container mx-auto py-5">
+            
+            <div class="header-wrapper flex flex-col md:gap-[1rem] justify-around items-center xl:flex-row">
+                <div class="logo mx-5 lg:mx-none max-w-[600px]">
+                    <img src="./images/logo.jpg" alt="logo"/>
+                </div>
+                <div class="border-[1px] border-[#ff0000] w-full xl:hidden my-2"></div>
+                <div id="hamburger" class="hamburger h-[21px] w-[30px] flex flex-col justify-between md:hidden mt-5">
+                    <span class="w-full h-[3px] bg-black round"></span>
+                    <span class="w-full h-[3px] bg-black round"></span>
+                    <span class="w-full h-[3px] bg-black round"></span>
+                </div>
+                <nav>
+                    <ul id="navList" class="hidden md:flex md:gap-[3rem] xl:gap-[2rem]">
+                        <li><a href="/index.html">Ballina</a></li>
+                        <li><a href="/about.html">Rreth nesh</a></li>
+                        <li><a href="/services.html">Shërbimet</a></li>
+                        <li><a href="#">Projektet</a></li>
+                        <li><a href="/contact.html">Kontakti</a></li>
+                        <li><a href="/catalog.html">Katalogu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="welcomeHome min-h-[300px] lg:min-h-[500px] flex items-center mt-2 overflow-hidden">
+        <h1 class="uppercase py-3 text-[1.5rem] lg:text-[3rem] text-center text-white pl-5 w-full lg:text-left lg:w-auto lg:w-auto lg:ml-auto lg:pr-[300px] bg-[#ff0000] ">Projektet</h1>
+    </section>
+
+
+    <section class="projectsSection py-8 container mx-auto max-w-[1560px] mb-[50px] px-[5%]">
+        <span id="services"></span>
+        <h2 class="text-[1.5rem] lg:text-[3rem] border-b-4 border-[#ff0000] tracking-wide block text-center pb-[3px] md:text-left md:inline">Projektet</h2>
+        <div class="flex flex-col max-w-[400px] mx-auto md:max-w-none md:flex-row gap-[50px] md:gap-[30px] mt-[30px] lg:mt-[60px]">
+            <div class="flex-1">
+                <img alt="Prishtina premium residence" src="./images/PrishtinaPremium.jpeg" class="mb-4"/>
+                <h3 class="text-[1.5rem] lg:text-[1.75rem] border-b-2 border-[#ff0000] inline font-normal">Prishtina Premium Residence</h3>
+            </div>
+            <div class="flex-1">
+                <img alt="Peja premium residence" src="./images/PejaPremium.jpeg" class="mb-4"/>
+                <h3 class="text-[1.5rem] lg:text-[1.75rem] border-b-2 border-[#ff0000] inline font-normal">Peja Premium Residence</h3>
+            </div>
+        </div>
+    </section>
+
+    <div class="row max-w-[1560px] mx-auto mt-[50px] px-[5%]">
+        <h2 class="block text-[1.5rem] lg:text-[3rem] border-b-4 border-[#ff0000] tracking-wide block text-center pb-[3px] md:text-left md:inline">Peja Premium Residence</h2>
+    </div>
+
+    <div class="row container max-w-[1560px] mx-auto my-[50px] px-[5%]"> 
+        
+        <div class="column column3">
+            <img src="./images/PejaPremiumResidence/1.JPG">
+            <img src="./images/PejaPremiumResidence/2.JPG">
+        </div>
+        <div class="column column3">
+            <img src="./images/PejaPremiumResidence/4.JPG" /> 
+            <img src="./images/PejaPremiumResidence/3.JPG" >
+        </div>
+        <div class="column column3">
+            <img src="./images/PejaPremiumResidence/5.JPG" >
+            <img src="./images/PejaPremiumResidence/6.JPG" />
+        </div>
+        <!-- <div class="column">
+            <img src="./images/5/image00002.jpeg"/>
+            <img src="./images/5/image00003.jpeg"/>
+        </div> -->
+    </div>
+
+    <!--OTHER PROJECTS-->
+    <div class="row max-w-[1560px] mx-auto mt-[50px] px-[5%]">
+        <h2 class="block text-[1.5rem] lg:text-[3rem] border-b-4 border-[#ff0000] tracking-wide block text-center pb-[3px] md:text-left md:inline">Projektet tjera</h2>
+    </div>
+
+    <div class="row max-w-[1280px] mx-auto my-[50px]"> 
+        
+        <div class="column">
+            <img src="./images/otherprojects/1.jpg">
+            <img src="./images/otherprojects/2.jpg">
+            <img src="./images/otherprojects/3.jpg">
+            <img src="./images/otherprojects/4.jpg">
+            <img src="./images/otherprojects/5.jpg">
+            <img src="./images/otherprojects/6.jpg">
+            <img src="./images/otherprojects/7.jpg">
+            <img src="./images/otherprojects/8.jpg">
+
+
+        </div>
+        <div class="column">
+            <img src="./images/otherprojects/9.jpg">
+            <img src="./images/otherprojects/10.jpg">
+            <img src="./images/otherprojects/11.jpg">
+            <img src="./images/otherprojects/12.jpg"> 
+            <img src="./images/otherprojects/13.jpg">
+            <img src="./images/otherprojects/14.jpg">
+            <img src="./images/otherprojects/15.jpg">
+            <img src="./images/otherprojects/16.jpg">
+        </div>
+        <div class="column">
+            <img src="./images/otherprojects/17.jpg">
+            <img src="./images/otherprojects/18.jpg"> 
+            <img src="./images/otherprojects/19.jpg">
+            <img src="./images/otherprojects/20.jpg">
+            <img src="./images/otherprojects/21.jpg">
+            <img src="./images/otherprojects/22.jpg">
+            <img src="./images/otherprojects/23.jpg">
+            <img src="./images/otherprojects/24.jpg"> 
+        </div>
+        <div class="column">
+            <img src="./images/otherprojects/25.jpg">
+            <img src="./images/otherprojects/26.jpg">
+            <img src="./images/otherprojects/27.jpg"> 
+            <img src="./images/otherprojects/28.jpg">
+            <img src="./images/otherprojects/29.jpg">
+            <img src="./images/otherprojects/30.jpg"> 
+            <img src="./images/otherprojects/31.jpg">
+        </div>
+      </div>
+    <script src="./js/header.js"></script>
+</body>
+</html>

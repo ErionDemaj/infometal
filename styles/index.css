@@ -1,0 +1,12 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+/*WELCOME SECTION*/
+.welcomeHome{
+    background-image: url("../images/welcome-home.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 100%; */
+}

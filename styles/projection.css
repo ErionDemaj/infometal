@@ -1,0 +1,10 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.welcomeHome{
+    background-image: url("../images/projectionPage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 100%; */
+}

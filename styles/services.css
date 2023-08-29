@@ -1,0 +1,15 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.welcomeHome{
+    background-image: url("../images/servicesPage.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 100%; */
+}
+
+.servicesDetails li {
+    font-size: 18px;
+    font-weight: 400;
+}

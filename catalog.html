@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Katalogu i fotografive per Infometal">
+    <title>Info Metal Katalogu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/catalog.css" ></link>
+    <link rel="stylesheet" href="./styles/header.css" ></link>
+</head>
+<body>
+    <header>
+        <div class="border-2 border-[#ff0000] w-full"></div>
+        <div class="container mx-auto py-5">
+            
+            <div class="header-wrapper flex flex-col md:gap-[1rem] justify-around items-center xl:flex-row">
+                <div class="logo mx-5 lg:mx-none max-w-[600px]">
+                    <img src="./images/logo.jpg" alt="logo"/>
+                </div>
+                <div class="border-[1px] border-[#ff0000] w-full xl:hidden my-2"></div>
+                <div id="hamburger" class="hamburger h-[21px] w-[30px] flex flex-col justify-between md:hidden mt-5">
+                    <span class="w-full h-[3px] bg-black round"></span>
+                    <span class="w-full h-[3px] bg-black round"></span>
+                    <span class="w-full h-[3px] bg-black round"></span>
+                </div>
+                <nav>
+                    <ul id="navList" class="hidden md:flex md:gap-[3rem] xl:gap-[2rem]">
+                        <li><a href="/index.html">Ballina</a></li>
+                        <li><a href="/about.html">Rreth nesh</a></li>
+                        <li><a href="/services.html">Shërbimet</a></li>
+                        <li><a href="/projects.html">Projektet</a></li>
+                        <li><a href="/contact.html">Kontakti</a></li>
+                        <li><a href="#">Katalogu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="welcomeHome min-h-[300px] lg:min-h-[500px] flex items-center mt-2 overflow-hidden">
+        <h1 class="uppercase py-3 text-[1.5rem] lg:text-[3rem] text-center text-white pl-5 w-full lg:text-left lg:w-auto lg:w-auto lg:ml-auto lg:pr-[300px] bg-[#ff0000] ">Katalogu</h1>
+    </section>
+    
+    <div class="row max-w-[1280px] mx-auto mt-[50px]">
+        <h2 class="block text-[1.5rem] lg:text-[3rem] border-b-4 border-[#ff0000] tracking-wide block text-center pb-[3px] md:text-left md:inline">Inspirim</h2>
+    </div>
+    <div class="row max-w-[1280px] mx-auto my-[50px]"> 
+        
+        <div class="column">
+            <img src="./images/2/image00001.jpeg">
+            <img src="./images/2/image00002.jpeg"/>
+            <img src="./images/2/image00003.jpeg"/>
+            <img src="./images/2/image00004.jpeg"/>
+            <img src="./images/2/image00005.jpeg"/>
+            <img src="./images/2/image00010.jpeg"/>
+
+        </div>
+        <div class="column">
+            <img src="./images/3/image00001.jpeg">
+            <img src="./images/3/image00002.jpeg"/>
+            <img src="./images/3/image00003.jpeg"/>
+            <img src="./images/3/image00010.jpeg"/>
+            <img src="./images/3/image00009.jpeg"/>
+            <img src="./images/2/image00009.jpeg"/>     
+        </div>
+        <div class="column">
+            <img src="./images/4/image00003.jpeg"/>
+            <img src="./images/4/image00005.jpeg"/>
+            <img src="./images/3/image00006.jpeg"/>
+            <img src="./images/3/image00007.jpeg"/>
+            <img src="./images/3/image00008.jpeg"/>
+            <img src="./images/3/image00011.jpeg"/>
+            <img src="./images/looks/image00006.jpeg"/>
+            <img src="./images/looks/image00008.jpeg"/>
+        </div>
+        <div class="column">
+            <img src="./images/5/image00002.jpeg"/>
+            <img src="./images/5/image00003.jpeg"/>
+            <img src="./images/5/image00004.jpeg"/>
+            <img src="./images/5/image00005.jpeg"/>
+            <img src="./images/looks/image00007.jpeg"/>
+            <img src="./images/implementation.jpeg"/>
+            <img src="./images/4/serviceInfo1.jpeg"/>
+        </div>
+      </div>
+
+    <script src="./js/header.js"></script>
+</body>
+</html>
